@@ -1,7 +1,7 @@
 {
   "name": "mobx-react-autorun",
   "version": "1.0.0",
-  "description": "",
+  "description": "A small react HOC to run a mobx autorun function when a component mounts, and dispose of it when the component will unmount.",
   "main": "index.js",
   "scripts": {
     "build": "babel lib -d build --ignore '**/*.test.js'",
@@ -10,7 +10,11 @@
     "test:watch": "jest --watch"
   },
   "author": "Damien Timewell",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/idlefingers/mobx-react-autorun.git"
+  },
   "dependencies": {
     "mobx": "^3.2.2"
   },
