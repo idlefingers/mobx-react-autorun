@@ -1,11 +1,11 @@
 {
   "name": "mobx-react-autorun",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small react HOC to run a mobx autorun function when a component mounts, and dispose of it when the component will unmount.",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build --ignore '**/*.test.js'",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "jest",
     "test:watch": "jest --watch"
   },
